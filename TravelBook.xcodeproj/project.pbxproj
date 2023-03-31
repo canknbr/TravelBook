@@ -14,6 +14,7 @@
 		364DCAA829D6F9AF00469E64 /* TravelBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 364DCAA629D6F9AF00469E64 /* TravelBook.xcdatamodeld */; };
 		364DCAAA29D6F9B100469E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364DCAA929D6F9B100469E64 /* Assets.xcassets */; };
 		364DCAAD29D6F9B100469E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364DCAAB29D6F9B100469E64 /* LaunchScreen.storyboard */; };
+		364DCAB529D7132300469E64 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364DCAB429D7132300469E64 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		364DCAA929D6F9B100469E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		364DCAAC29D6F9B100469E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		364DCAAE29D6F9B100469E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364DCAB429D7132300469E64 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				364DCA9F29D6F9AF00469E64 /* SceneDelegate.swift */,
 				364DCAA129D6F9AF00469E64 /* ViewController.swift */,
 				364DCAA329D6F9AF00469E64 /* Main.storyboard */,
+				364DCAB429D7132300469E64 /* ListViewController.swift */,
 				364DCAA929D6F9B100469E64 /* Assets.xcassets */,
 				364DCAAB29D6F9B100469E64 /* LaunchScreen.storyboard */,
 				364DCAAE29D6F9B100469E64 /* Info.plist */,
@@ -144,6 +147,7 @@
 				364DCAA829D6F9AF00469E64 /* TravelBook.xcdatamodeld in Sources */,
 				364DCAA229D6F9AF00469E64 /* ViewController.swift in Sources */,
 				364DCA9E29D6F9AF00469E64 /* AppDelegate.swift in Sources */,
+				364DCAB529D7132300469E64 /* ListViewController.swift in Sources */,
 				364DCAA029D6F9AF00469E64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +298,7 @@
 				DEVELOPMENT_TEAM = 56GPYX4M8B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TravelBook/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To get your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,6 +327,7 @@
 				DEVELOPMENT_TEAM = 56GPYX4M8B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TravelBook/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To get your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
